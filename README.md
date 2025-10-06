@@ -1,6 +1,5 @@
 # 🏠 Analyse exploratoire du prix des maisons avec R
 
-### *(Étude de cas : Ames Housing)*
 
 ---
 
@@ -10,6 +9,22 @@ Ce projet a pour but d’analyser les **facteurs influençant le prix de vente d
 L’analyse a été réalisée avec **R** et vise à explorer, nettoyer et visualiser les données.
 
 ---
+## 📄 Rapport complet
+
+Le rapport détaillé de l’analyse, incluant le code R, les visualisations et les interprétations, est disponible au format PDF :
+👉 [Télécharger le rapport complet](./rapport_analyse_maison.pdf)
+
+Ce document présente l’ensemble des étapes de nettoyage, d’exploration et d’analyse des corrélations menées sur le dataset Ames Housing.
+
+---
+
+📊 Source du dataset
+
+Les données utilisées dans ce projet proviennent du challenge House Prices – Advanced Regression Techniques sur Kaggle :
+🔗 Dataset Kaggle – train.csv
+
+
+
 
 ## 🧰 1. Chargement des packages nécessaires
 
