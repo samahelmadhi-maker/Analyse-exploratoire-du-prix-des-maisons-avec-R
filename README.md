@@ -5,10 +5,11 @@
 
 ## 🎯 Objectif du projet
 
-Ce projet a pour but d’analyser les **facteurs influençant le prix de vente des maisons** à partir du jeu de données **Ames Housing**.
+Ce projet a pour but d’analyser les **facteurs influençant le prix de vente des maisons** à partir du jeu de données **challenge House Prices**.
 L’analyse a été réalisée avec **R** et vise à explorer, nettoyer et visualiser les données.
 
 ---
+
 ## 📄 Rapport complet
 
 Le rapport détaillé de l’analyse, incluant le code R, les visualisations et les interprétations, est disponible au format PDF :
@@ -16,14 +17,15 @@ Le rapport détaillé de l’analyse, incluant le code R, les visualisations et 
 
 Ce document présente l’ensemble des étapes de nettoyage, d’exploration et d’analyse des corrélations menées sur le dataset Ames Housing.
 
----
+
 
 📊 Source du dataset
 
 Les données utilisées dans ce projet proviennent du challenge House Prices – Advanced Regression Techniques sur Kaggle :
-🔗 Dataset Kaggle – train.csv
+🔗 Dataset Kaggle – train.csv 👉 [https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data]
 
 
+---
 
 
 ## 🧰 1. Chargement des packages nécessaires
@@ -284,22 +286,19 @@ ggplot(train, aes(x = CentralAir, y = SalePrice, fill = CentralAir)) +
 * Les principales variables influençant le prix sont : **OverallQual**, **GrLivArea**, **GarageCars**, et **Neighborhood**.
 * Les maisons récentes et de qualité supérieure se vendent nettement plus cher.
 
+---
 
 ## 📁 Structure du projet
 
-```
-├── README.md                # Documentation du projet
-├── train.csv                # Jeu de données principal
+├── README.md                    
+├── rapport_analyse_maison.pdf   
+├── train.csv                    
 ├── scripts/
-│   └── analysis.R           # Code R complet d’analyse
+│   └── analysis.R               
 └── visualisations/
     ├── correlation_plot.png
     ├── saleprice_hist.png
-    ├── neighborhood_boxplot.png
+    └── neighborhood_boxplot.png
+
 ```
 
----
-
-
-
-Projet réalisé par **[Ton Nom]** dans le cadre d’une **analyse exploratoire des données immobilières** avec R.
