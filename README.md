@@ -15,6 +15,7 @@ L’analyse a été réalisée avec **R** et vise à explorer, nettoyer et visua
 Le rapport détaillé de l’analyse, incluant le code R, les visualisations et les interprétations, est disponible au format PDF :
 👉 [Télécharger le rapport complet](./rapport_analyse_maison.pdf)
 
+
 Ce document présente l’ensemble des étapes de nettoyage, d’exploration et d’analyse des corrélations menées sur le dataset Ames Housing.
 
 
